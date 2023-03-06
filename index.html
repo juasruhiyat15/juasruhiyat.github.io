@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>MyPorfolio | Juas Ruhiyat</title>
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- End AOS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
   </head>
   <body>
-    <!-- nabar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Juas Ruhiyat</a>
@@ -39,7 +43,7 @@
     <section class="jumbotron text-center">
       <img src="img/shuri.jpg" alt="foto juas" width="200px" class="rounded-circle img-thumbnail mt-4" />
       <h1 class="display-4">Juas Ruhiyat</h1>
-      <p class="lead">Designer | Programer | Engginer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -59,10 +63,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga iure fugit maxime, assumenda vel quibusdam saepe eius alias minus odio!</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto libero voluptatem voluptates consequatur aliquid ipsa odio qui quae facilis error pariatur, odit, quam consectetur!</p>
           </div>
         </div>
@@ -87,7 +91,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="img/shuri.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -95,7 +99,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="50">
               <img src="img/shuri.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -103,7 +107,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="img/shuri.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -111,7 +115,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="150">
               <img src="img/shuri.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -119,7 +123,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="img/shuri.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -137,6 +141,70 @@
       </svg>
     </section>
     <!-- end projects -->
+
+    <!-- gallery -->
+    <section id="galery">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumnails/1.jpg" alt="Gambar 1" class="img-fluid galery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumnails/2.jpg" alt="Gambar 2" class="img-fluid galery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumnails/3.jpg" alt="Gambar 3" class="img-fluid galery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumnails/4.jpg" alt="Gambar 4" class="img-fluid galery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumnails/5.jpg" alt="Gambar 5" class="img-fluid galery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumnails/6.jpg" alt="Gambar 6" class="img-fluid galery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumnails/7.jpg" alt="Gambar 7" class="img-fluid galery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumnails/8.jpg" alt="Gambar 8" class="img-fluid galery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumnails/9.jpg" alt="Gambar 9" class="img-fluid galery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/thumnails/10.jpg" alt="Gambar 10" class="img-fluid galery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end gellery -->
 
     <!-- contact -->
     <section id="contact" class="contact">
@@ -181,8 +249,37 @@
       <p>Create with love by <a href="#" class="text-white fw-bold">Juas Ruhiyat</a></p>
     </footer>
     <!-- end footer -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Designer | Programer | Engginer'})
+      gsap.from(".jumbotron img", { duration: 1, y: -100, opacity: 0, rotateY: 360});
+      gsap.from(".navbar", { duration:1.5, y: '-100%', opacity: 0, ease: 'bounce'});
+      gsap.from(".display-4", { duration:1.5, x: -50, opacity: 0, delay: 0.5, ease: 'back'});
+    </script>
+    <!-- end GSAP -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".galery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 100;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <!-- End JS AOS -->
   </body>
 </html>
-
-
